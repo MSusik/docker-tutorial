@@ -1,0 +1,5 @@
+docker run -i -t ubuntu /bin/bash
+
+ifconfig docker0
+
+docker image ls
