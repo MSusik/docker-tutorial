@@ -3,3 +3,6 @@ docker run -i -t ubuntu /bin/bash
 ifconfig docker0
 
 docker image ls
+
+docker build -t friendlyhello .
+docker run friendlyhello
