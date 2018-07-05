@@ -8,3 +8,9 @@ docker build -t friendlyhello .
 docker run friendlyhello
 docker run friendlyhello hostname
 docker run -it friendlyhello hostname
+
+docker-compose build
+docker-compose up -d
+docker ps
+docker-compose exec redis redis-cli
+docker-compose stop
