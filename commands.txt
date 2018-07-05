@@ -6,3 +6,5 @@ docker image ls
 
 docker build -t friendlyhello .
 docker run friendlyhello
+docker run friendlyhello hostname
+docker run -it friendlyhello hostname
