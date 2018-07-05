@@ -1,0 +1,1 @@
+Hi! I'm an embedding matrix (3kk x 500) in gensim format.

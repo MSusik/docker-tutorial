@@ -8,8 +8,13 @@ services:
       - "80:80"
     links:
       - redis
+    volumes:
+      - ./dir_with_large_files:/data
   redis:
     image: redis
     ports:
       - "6379:6379"
     command: redis-server --appendonly yes
+    volumes:
+      - ./dir_with_large_files:/embeddings
+
